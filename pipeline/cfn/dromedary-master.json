@@ -236,7 +236,7 @@
           "default":"GitHub User"
         },
         "IAMCFNTemplateFile":{
-          "default":"CFN Template File for AIM"
+          "default":"CFN Template File for IAM"
         },
         "InstanceType":{
           "default":"EC2 Instance Type"
