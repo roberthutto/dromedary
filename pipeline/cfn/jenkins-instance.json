@@ -50,7 +50,7 @@
   "Mappings":{
     "RegionConfig":{
       "us-east-1":{
-        "ami":"ami-dcc2b3b6"
+        "ami":"ami-2db48a47"
       }
     }
   },
