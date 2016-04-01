@@ -20,12 +20,12 @@
     "GitHubUser":{
       "Type":"String",
       "Description":"GitHub UserName. This username must have access to the GitHubToken.",
-      "Default":"stelligent"
+      "Default":"roberthutto"
     },
     "BaseTemplateURL":{
       "Type":"String",
       "Description":"S3 Base URL of all the CloudFormation templated used in Dromedary (without the file names)",
-      "Default":"https://s3.amazonaws.com/stelligent-training-public/master/"
+      "Default":"https://s3.amazonaws.com/roberthutto-dromedary/master/"
     },
     "VPCCFNTemplateFile":{
       "Type":"String",
@@ -81,11 +81,11 @@
     "Domain":{
       "Type":"String",
       "Description":"Route53 Hosted Zone name for prod IP (include trailing .). Your AWS account must have access to this Hosted Zone.",
-      "Default":"oneclickdeployment.com."
+      "Default":"roberthutto.com."
     },
     "ProdHostedZone":{
       "Type":"String",
-      "Default":".oneclickdeployment.com",
+      "Default":".roberthutto.com",
       "Description":"Route53 Hosted Zone (include leading .). Your AWS account must have access to this Hosted Zone."
     },
     "InstanceType":{
